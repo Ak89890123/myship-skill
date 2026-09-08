@@ -1,0 +1,23 @@
+{
+  "name": "CLI 測試草稿",
+  "description": "CLI 表單預覽測試，尚未儲存",
+  "status": "off",
+  "visibility": "hidden",
+  "pickupFee": 38,
+  "images": ["test-banner.png"],
+  "products": [
+    {
+      "name": "CLI 單規格測試商品",
+      "description": "未儲存的測試商品",
+      "images": ["test-blue.png", "test-black.png"],
+      "specificationImages": [
+        { "option": "藍色", "path": "test-blue.png" },
+        { "option": "黑色", "path": "test-black.png" }
+      ],
+      "specifications": [
+        { "name": "藍色", "stock": 1, "price": 100 },
+        { "name": "黑色", "stock": 2, "price": 120 }
+      ]
+    }
+  ]
+}

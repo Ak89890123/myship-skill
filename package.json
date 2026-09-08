@@ -1,0 +1,28 @@
+{
+  "name": "myship-local-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "賣貨便一般賣場 CLI，使用專用瀏覽器設定檔",
+  "bin": {
+    "myship": "./scripts/cli.js"
+  },
+  "scripts": {
+    "check": "node --check scripts/cli.js && node --check scripts/browser.js && node --check scripts/session.js && node --check scripts/operations.js && node --check scripts/draft.js",
+    "install-local": "npm link",
+    "test": "node scripts/test.js && node scripts/test-writes.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "playwright": "1.63.0-alpha-2026-08-31"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "scripts/*.js",
+    "references/",
+    "assets/"
+  ]
+}

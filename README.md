@@ -44,4 +44,3 @@ git archive --format=zip --output=../myship-skill.zip HEAD
 ```
 
 尚未選定開源授權，也未公開發布。公開前需由維護者決定 LICENSE。Git 歷史保留原始開發紀錄；上述匯出僅包含當前版本檔案，不含歷史。
-

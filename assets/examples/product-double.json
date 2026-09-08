@@ -1,0 +1,21 @@
+{
+  "name": "CLI 雙規格測試商品",
+  "description": "未儲存的雙規格測試商品",
+  "images": ["test-blue.png"],
+  "specificationImages": [
+    { "option": "藍色", "path": "test-blue.png" },
+    { "option": "黑色", "path": "test-black.png" }
+  ],
+  "doubleSpecifications": {
+    "axes": [
+      { "name": "顏色", "options": ["藍色", "黑色"] },
+      { "name": "尺寸", "options": ["小", "大"] }
+    ],
+    "variants": [
+      { "options": ["藍色", "小"], "stock": 1, "price": 100 },
+      { "options": ["藍色", "大"], "stock": 1, "price": 120 },
+      { "options": ["黑色", "小"], "stock": 1, "price": 100 },
+      { "options": ["黑色", "大"], "stock": 1, "price": 120 }
+    ]
+  }
+}
